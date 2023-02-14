@@ -45,7 +45,7 @@ td:hover, tr:hover {
 }
 
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid rgba(166, 166, 166, 0.629);
     border-collapse: collapse;
 }
 
