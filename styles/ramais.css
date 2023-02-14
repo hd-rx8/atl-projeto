@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +11,7 @@ body {
     background: url('https://www.treehugger.com/thmb/Td6BxnyicFhf_Hst3i0dhTZmMss=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/closeupbrightbluewater-61f0f88d81004729a7385484bcd38998.jpg');
     background-repeat: repeat-y;
     background-size: cover;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', 'Poppins', sans-serif;
     margin-top: 10px;
     padding-bottom: 20px;
 }
@@ -41,7 +43,7 @@ table {
 }
 
 td:hover, tr:hover {
-    background: rgb(213, 213, 213);
+    background: white;
 }
 
 table, th, td {
@@ -64,8 +66,17 @@ td.numero {
 }
 
 a.voltar{
+    font-size: 14px;
     text-decoration: none;
     padding: 10px 20px 10px 20px;
-    background-color: white;
-    border-radius: 10px;
+    background-color: rgba(245, 245, 245, 0.90);
+    color: black;
+    border-radius: 8px;
+    border: 1px solid rgba(212, 212, 212, 0.5);
+}
+
+a.voltar:hover {
+    background-color: #004e78;
+    color: white;
+    border: 1px solid white;
 }
