@@ -61,7 +61,7 @@ h3 {
 
 .btn {
     min-width: 150px;
-    max-width: 150px;
+    /* max-width: 150px; */
 }
 
 .btn {
@@ -82,15 +82,10 @@ h3 {
 
 /********* MEDIA QUERIES *********/
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     body {
         display: flex;
         flex-direction: column;
-    }
-
-    .container {
-        max-width: 600px;
-        max-height: 320px;
     }
 
     div.left, div.right {
@@ -103,10 +98,8 @@ h3 {
 
     .btn {
         padding: 30px 10px; 
-        min-width: 250px;
-        max-width: 250px;
-        font-size: 12px;
-        margin-left: 35px;
+        min-width: 90vw;
+        font-size: 14px;
     }
 
     h3 {
